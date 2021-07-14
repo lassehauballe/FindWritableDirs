@@ -1,5 +1,5 @@
 # FindWritableDirs
-* - An alternative to Accesschk.exe * 
+- An alternative to Accesschk.exe
  
 
 For those moments where Powershell is banned, and applocker is stopping you from running .exe-files such as accesschk.exe 
