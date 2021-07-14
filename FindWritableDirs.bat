@@ -27,9 +27,8 @@ if NOT exist testfile.txt  (
     ECHO Creating testfile.txt
     ECHO Test file > testfile.txt
 )
-:: DEL "%%s\testfile.txt"
 
-:: find subfolders
+:: find subfolders, try to copy testfile.txt, if successful delete it again and print success!
 for /D /R %starting_path%  %%s in (*) do (
     copy testfile.txt "%%s" > nul 2>&1
     if exist "%%s\testfile.txt" (
