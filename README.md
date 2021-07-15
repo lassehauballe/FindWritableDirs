@@ -1,4 +1,4 @@
-# FindWritableDirs
+# Find Writable Directories using cmd.exe / .bat files
 *An alternative to Accesschk.exe / poor-mans Accesschk.exe* 
  
 
